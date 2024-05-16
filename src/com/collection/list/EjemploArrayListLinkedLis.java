@@ -69,6 +69,9 @@ public class EjemploArrayListLinkedLis {
         Collections.sort(productoList);
         productoList.forEach(System.out::println);
 
+        Collections.sort(productoList, Collections.reverseOrder());
+        System.out.println(productoList);
+
     }
 
 }
